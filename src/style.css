@@ -1,32 +1,11 @@
-/* styles go here */
-* {
-  box-sizing: border-box;
+.form__field {
+  display: block;
 }
 
-main {
-  margin: auto;
-  text-align: left;
+.form__field:not(:last-child) {
+  margin-bottom: 10px;
 }
 
-fieldset {
-  border: 1px solid #000;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-div {
-  padding: 5px 0;
-}
-
-.button {
-  border: 1px solid black;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  border-radius: 6px;
-  padding: 1px 6px;
-  background-color: white;
-  margin-top: 10px;
-  margin-left: 5px;
+.form_item {
+  margin-bottom: 20px;
 }
